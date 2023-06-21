@@ -1,0 +1,186 @@
+.apology {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.navbar-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+
+
+
+.search {
+  position: sticky;
+  top: 3.5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+.city_search {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 300px;
+  background-color: #cce6ff;
+  height: 35px;
+  transition: all 0.3s ease;
+}
+.button_city_search {
+  border: none;
+  background: none;
+  color: white
+}
+.button_city_search:hover {
+  border: none;
+  background: none;
+}
+
+
+
+.search_in_bar {
+  display: none;
+  color: white;
+}
+.bar {
+  padding-top: 10%;
+}
+.bar_fast_search{
+  display: flex;
+}
+.bar form button{
+  border: none;
+  background: none;
+  color: #e6e6e6;
+}
+.bar form button:hover{
+  border: none;
+  background: none;
+  color: black;
+}
+
+
+.login_bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.login {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.login button {
+  margin-left: 38%;
+}
+
+
+
+
+.register {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.register button {
+  margin-left: 28%;
+}
+
+
+
+
+.weather_now{
+  padding-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white
+}
+.add_city{
+  border: none;
+  background: none;
+  color: white;
+}
+
+
+
+
+.weather_forecast {
+  margin-left: 2%;
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container_forecast {
+  display: flex;
+  flex-wrap: wrap;
+}
+.table_forecast {
+  display: flex;
+  align-items: start;
+  margin-right: 3%;
+}
+.date {
+  color: white;
+}
+.table_forecast table{
+  display: grid;
+  border-collapse: separate;
+  border-spacing: 10px;
+}
+
+
+
+
+
+.wrong_massage{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+  .search {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .city_search{
+    width: 170px;
+    transition: all 0.3s ease;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .search_in_bar {
+    display: block;
+  }
+}
+
+
+
+
